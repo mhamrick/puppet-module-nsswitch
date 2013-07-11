@@ -15,7 +15,7 @@
 class nsswitch (
   $config_file = '/etc/nsswitch.conf',
   $ensure_ldap = 'absent',
-  $ensure_ldap = 'absent',
+  $ensure_sss= 'absent',
 ) {
 
   file { 'nsswitch_config_file':
